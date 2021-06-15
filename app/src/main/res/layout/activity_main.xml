@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/front_book"/>
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Search book"
+        android:gravity="center"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:background="@android:color/white"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/black"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_below="@id/search_bar"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

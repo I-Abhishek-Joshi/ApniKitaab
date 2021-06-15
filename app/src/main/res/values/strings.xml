@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ApniKitaab</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="no_network">No Internet Connection</string>
+    <string name="no_books">No Books Found</string>
+    <string name="Search_Book">Search Book</string>
+</resources>
